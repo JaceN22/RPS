@@ -1,9 +1,9 @@
-	function computerThink(){
+function computerThink() {
 	computerChoice = Math.floor(Math.random()*3);
-	if(computerChoice === 1){
+	if(computerChoice === 1) {
 		computerChoice = "rock";
 	}
-	else if(computerChoice === 2){
+	else if(computerChoice === 2) {
 		computerChoice = "paper";
 	}
 	else{
